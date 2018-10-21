@@ -38,7 +38,7 @@ body {
 }
 
 .mercury {
-  animation: orbitMercury 10s linear infinite;
+  animation: orbitMercury 3s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -53,7 +53,7 @@ body {
   }
 }
 .venus {
-  animation: orbitVenus 10s linear infinite;
+  animation: orbitVenus 3.5s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -68,7 +68,7 @@ body {
   }
 }
 .earth {
-  animation: orbitEarth 10s linear infinite;
+  animation: orbitEarth 6s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -83,7 +83,7 @@ body {
   }
 }
 .mars {
-  animation: orbitMars 10s linear infinite;
+  animation: orbitMars 6.5s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -98,7 +98,7 @@ body {
   }
 }
 .jupiter {
-  animation: orbitJupiter 30s linear infinite;
+  animation: orbitJupiter 10s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -113,7 +113,7 @@ body {
   }
 }
 .saturn {
-  animation: orbitSaturn 30s linear infinite;
+  animation: orbitSaturn 13s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -128,7 +128,7 @@ body {
   }
 }
 .uranus {
-  animation: orbitUranus 30s linear infinite;
+  animation: orbitUranus 17s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -143,7 +143,7 @@ body {
   }
 }
 .neptune {
-  animation: orbitNeptune 30s linear infinite;
+  animation: orbitNeptune 22s linear infinite;
   height: 20px;
   width: 20px;
   cursor: pointer;
@@ -162,6 +162,28 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5em;
   color: white;
+}
+
+.inputField {
+  background: none;
+  outline: none;
+  color: white;
+  border: none;
+  padding-left: 3%;
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+}
+
+#start-record-btn {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 1%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+#pause-record-btn {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
