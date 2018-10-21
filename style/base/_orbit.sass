@@ -1,0 +1,120 @@
+.outside
+    width: 100vw
+    height: 100vh
+
+.center 
+    position: absolute    
+    left: 50%
+    top: 50%
+    -webkit-transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%)
+
+@keyframes orbitMercury
+    from 
+        transform: rotate(0deg) translateX(50px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(50px) rotate(-360deg)
+.sun
+    left: calc(50% + 10px)
+    top: calc(50% + 10px)
+    -webkit-transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%)
+    position: absolute    
+    height: 30px
+    width: 30px
+    cursor: pointer
+
+.mercury  
+    animation: orbitMercury 10s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+@keyframes orbitVenus
+    from 
+        transform: rotate(0deg) translateX(80px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(80px) rotate(-360deg)
+
+.venus 
+    animation: orbitVenus 10s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+@keyframes orbitEarth
+    from 
+        transform: rotate(0deg) translateX(110px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(110px) rotate(-360deg)
+
+.earth 
+    animation: orbitEarth 10s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+
+@keyframes orbitMars
+    from 
+        transform: rotate(0deg) translateX(140px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(140px) rotate(-360deg)
+
+.mars
+    animation: orbitMars 10s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+
+@keyframes orbitJupiter
+    from 
+        transform: rotate(0deg) translateX(170px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(170px) rotate(-360deg)
+
+.jupiter
+    animation: orbitJupiter 30s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+
+@keyframes orbitSaturn
+    from 
+        transform: rotate(0deg) translateX(200px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(200px) rotate(-360deg)
+
+.saturn
+    animation: orbitSaturn 30s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+@keyframes orbitUranus
+    from 
+        transform: rotate(0deg) translateX(230px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(230px) rotate(-360deg)
+
+.uranus
+    animation: orbitUranus 30s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+@keyframes orbitNeptune
+    from 
+        transform: rotate(0deg) translateX(260px) rotate(0deg) 
+    to
+        transform: rotate(360deg) translateX(260px) rotate(-360deg)
+
+.neptune
+    animation: orbitNeptune 30s linear infinite
+    height: 20px
+    width: 20px
+    cursor: pointer
+
+
